@@ -49,7 +49,7 @@ Example:
 - useGrouping (boolean; default False): If true, the expanded dropdown menu will include labels for the various groups of options.
 Those labels and groupings are set in the options prop
 - value (bool | number | str | dict | list; optional): The active selection for the menu
-- variant (string; default "standard"): Allows selection of one of three variant types of menus: filled, outlined, or standard. Set
+- variant (string; default 'standard'): Allows selection of one of three variant types of menus: filled, outlined, or standard. Set
 to standard by default"""
     @_explicitize_args
     def __init__(self, autoWidth=Component.UNDEFINED, classes=Component.UNDEFINED, disabled=Component.UNDEFINED, helperText=Component.UNDEFINED, id=Component.REQUIRED, labelText=Component.UNDEFINED, labelId=Component.UNDEFINED, multiple=Component.UNDEFINED, options=Component.UNDEFINED, useGrouping=Component.UNDEFINED, value=Component.UNDEFINED, variant=Component.UNDEFINED, **kwargs):
