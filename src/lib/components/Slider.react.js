@@ -77,7 +77,6 @@ export default class Slider extends Component<Props, State> {
     }
 
     handleChange = (event, newValue) => {
-        console.log(newValue);
         this.setState({value: newValue});
         if (typeof this.props.setProps === 'function') {
             this.props.setProps({value: newValue});

@@ -2605,6 +2605,59 @@
       }
     }
   },
+  "src/lib/components/ColorPicker.react.js": {
+    "description": "A Dash Color Picker component",
+    "displayName": "ColorPicker",
+    "methods": [
+      {
+        "name": "handleChange",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "e",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "required": false,
+        "flowType": {
+          "name": "string"
+        },
+        "description": "ID for ColorPicker",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "value": {
+        "required": false,
+        "flowType": {
+          "name": "number"
+        },
+        "description": "The initial value of the color picker",
+        "defaultValue": {
+          "value": "'#000000'",
+          "computed": false
+        }
+      },
+      "displayLabel": {
+        "required": false,
+        "flowType": {
+          "name": "boolean"
+        },
+        "description": "To dipslay the label for the selected color",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      }
+    }
+  },
   "src/lib/components/Dialog.react.js": {
     "description": "Material UI Dialog component",
     "displayName": "Dialog",

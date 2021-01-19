@@ -6,6 +6,7 @@ from .Card import Card
 from .Checkbox import Checkbox
 from .CircularProgress import CircularProgress
 from .CollapseTransition import CollapseTransition
+from .ColorPicker import ColorPicker
 from .Dialog import Dialog
 from .Divider import Divider
 from .Drawer import Drawer
@@ -36,6 +37,7 @@ __all__ = [
     "Checkbox",
     "CircularProgress",
     "CollapseTransition",
+    "ColorPicker",
     "Dialog",
     "Divider",
     "Drawer",

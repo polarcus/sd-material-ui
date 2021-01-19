@@ -1,0 +1,16 @@
+body {
+    background-color: lightgrey;
+    padding: 16px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.col {
+    flex-basis: 100%;
+    padding: 8px;
+    margin: 8px;
+}
