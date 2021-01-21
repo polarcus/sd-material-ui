@@ -138,6 +138,7 @@ const theme = createMuiTheme({
                 fontSize: '14px',
                 lineHeight: '17px',
                 color: '#4F4F4F',
+                width: 200,
             },
         },
         MuiAlert: {

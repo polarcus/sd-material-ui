@@ -2137,7 +2137,7 @@
         "flowType": {
           "name": "signature",
           "type": "object",
-          "raw": "{\n  root?: string,\n  checked?: string,\n  disabled?: string,\n  indeterminate?: string,\n  colorPrimary?: string,\n  colorSecondary?: string,\n  sizeSmall?: string,\n}",
+          "raw": "{\n    root?: string,\n    checked?: string,\n    disabled?: string,\n    indeterminate?: string,\n    colorPrimary?: string,\n    colorSecondary?: string,\n    sizeSmall?: string,\n}",
           "signature": {
             "properties": [
               {
@@ -2295,6 +2295,17 @@
         "description": "Override the inline styles of the root element",
         "defaultValue": {
           "value": "{}",
+          "computed": false
+        }
+      },
+      "color": {
+        "required": false,
+        "flowType": {
+          "name": "string"
+        },
+        "description": "The default color",
+        "defaultValue": {
+          "value": "'primary'",
           "computed": false
         }
       }

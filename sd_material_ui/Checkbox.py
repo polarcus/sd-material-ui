@@ -32,14 +32,15 @@ Valid rule names are:
 - id (string; required): The element's ID
 - label (string; optional): The label for the checkbox
 - name (string; default ''): The name prop of the checkbox
-- style (dict; optional): Override the inline styles of the root element"""
+- style (dict; optional): Override the inline styles of the root element
+- color (string; default 'primary'): The default color"""
     @_explicitize_args
-    def __init__(self, checked=Component.UNDEFINED, className=Component.UNDEFINED, classes=Component.UNDEFINED, disabled=Component.UNDEFINED, disableRipple=Component.UNDEFINED, fireEvent=Component.UNDEFINED, id=Component.REQUIRED, label=Component.UNDEFINED, name=Component.UNDEFINED, style=Component.UNDEFINED, **kwargs):
-        self._prop_names = ['checked', 'className', 'classes', 'disabled', 'disableRipple', 'id', 'label', 'name', 'style']
+    def __init__(self, checked=Component.UNDEFINED, className=Component.UNDEFINED, classes=Component.UNDEFINED, disabled=Component.UNDEFINED, disableRipple=Component.UNDEFINED, fireEvent=Component.UNDEFINED, id=Component.REQUIRED, label=Component.UNDEFINED, name=Component.UNDEFINED, style=Component.UNDEFINED, color=Component.UNDEFINED, **kwargs):
+        self._prop_names = ['checked', 'className', 'classes', 'disabled', 'disableRipple', 'id', 'label', 'name', 'style', 'color']
         self._type = 'Checkbox'
         self._namespace = 'sd_material_ui'
         self._valid_wildcard_attributes =            []
-        self.available_properties = ['checked', 'className', 'classes', 'disabled', 'disableRipple', 'id', 'label', 'name', 'style']
+        self.available_properties = ['checked', 'className', 'classes', 'disabled', 'disableRipple', 'id', 'label', 'name', 'style', 'color']
         self.available_wildcard_properties =            []
 
         _explicit_args = kwargs.pop('_explicit_args')

@@ -2,10 +2,10 @@
 
 import React, {Component} from 'react';
 import polarcusTheme from '../polarcusTheme';
+import {ThemeProvider} from '@material-ui/core';
 import MuiPaper from '@material-ui/core/Paper';
 // import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 // import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import {ThemeProvider} from '@material-ui/core';
 // import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 type Props = {
