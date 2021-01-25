@@ -204,3 +204,7 @@
 .last {
     order: 1;
 }
+
+.flex {
+    display: flex;
+}

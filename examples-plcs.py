@@ -271,6 +271,11 @@ app.layout = html.Div(className="main-container", children=[
                         marks=[{'value': i, 'label': i}
                                for i in range(11)],
                     ),
+                    sd_material_ui.Slider(
+                        id='slider-4',
+                        valueLabelDisplay="auto",
+                        value=[30, 70],
+                    ),
                 ])
             ])
         ]),
@@ -301,7 +306,43 @@ app.layout = html.Div(className="main-container", children=[
                      sd_material_ui.Paper(children=[dcc.Graph(id='g-4')])]),
         ]),
 
-        spacer
+        spacer,
+        # Metric display
+        html.Div(className="row", children=[
+            html.Div(className="col col-2", children=[
+                sd_material_ui.Paper(
+                    className="flex between", children=[
+                        html.Div(className="body2", children="Metric"),
+                        html.Div(className="body2", children=123)
+                    ])
+            ]),
+        ]),
+
+        spacer,
+
+        # Date picker
+        html.Div(className="row", children=[
+            html.Div(className="col col-4", children=[
+                sd_material_ui.Paper(children=[
+                    sd_material_ui.Picker(
+                        id="date-picker-1", label="Date Picker", type="date"),
+                    sd_material_ui.Picker(
+                        id="date-picker-2", label="Time Picker", type="time"),
+                    sd_material_ui.Picker(
+                        id="date-picker-3", label="Date Dialog", type="date-dialog")
+                ])
+            ]),
+        ]),
+
+        spacer,
+
+        # Text Input
+        html.Div(className="row", children=[
+            html.Div(className="col col-4", children=[
+
+            ])
+        ])
+
     ]),
     sidebar
 ])
