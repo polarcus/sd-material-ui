@@ -27,3 +27,4 @@ export {default as Toggle} from './components/Toggle.react';
 export {default as ZoomTransition} from './components/ZoomTransition.react';
 export {default as Slider} from './components/Slider.react';
 export {default as ColorPicker} from './components/ColorPicker.react';
+export {default as TextField} from './components/TextField.react';

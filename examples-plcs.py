@@ -307,6 +307,17 @@ app.layout = html.Div(className="main-container", children=[
         ]),
 
         spacer,
+        # Autocomplete
+        html.Div(className="row", children=[
+            html.Div(className="col col-4", children=[
+                 sd_material_ui.Paper(children=[
+                     sd_material_ui.AutoComplete(id="autocomplete-1", dataSource=[{"label": "Aa", "value": "aa"}, {
+                                                 "label": "Ab", "value": "ab"}, {"label": "Ac", "value": "ac"}])
+                 ])
+                 ])
+        ]),
+
+        spacer,
         # Metric display
         html.Div(className="row", children=[
             html.Div(className="col col-2", children=[
@@ -339,9 +350,15 @@ app.layout = html.Div(className="main-container", children=[
         # Text Input
         html.Div(className="row", children=[
             html.Div(className="col col-4", children=[
-
+                sd_material_ui.Paper(children=[
+                    sd_material_ui.TextField(id="textfield-1")
+                ])
             ])
-        ])
+        ]),
+
+
+
+        spacer
 
     ]),
     sidebar

@@ -481,7 +481,7 @@
             "type": {
               "name": "signature",
               "type": "object",
-              "raw": "{\n  /** The classes to be applied to this component. This keys in this object must be valid CSS rule\n   * names, and the values must be strings for the classnames to be assigned to each rule name\n   * Valid rule names are:\n   *   root\n   *   fullWidth\n   *   focus\n   *   tag\n   *   tagSizeSmall\n   *   hasPopupIcon\n   *   hasClearIcon\n   *   inputRoot\n   *   input\n   *   inputFocused\n   *   endAdornment\n   *   clearIndicator\n   *   clearIndicatorDirty\n   *   popupIndicator\n   *   popupIndicatorOpen\n   *   popper\n   *   popperDisablePortal\n   *   paper\n   *   listbox\n   *   loading\n   *   noOptions\n   *   option\n   *   groupLabel\n   *   groupUl\n   * */\n  classes?: {\n    root?: string,\n    fullWidth?: string,\n    focus?: string,\n    tag?: string,\n    tagSizeSmall?: string,\n    hasPopupIcon?: string,\n    hasClearIcon?: string,\n    inputRoot?: string,\n    input?: string,\n    inputFocused?: string,\n    endAdornment?: string,\n    clearIndicator?: string,\n    clearIndicatorDirty?: string,\n    popupIndicator?: string,\n    popupIndicatorOpen?: string,\n    popper?: string,\n    popperDisablePortal?: string,\n    paper?: string,\n    listbox?: string,\n    loading?: string,\n    noOptions?: string,\n    option?: string,\n    groupLabel?: string,\n    groupUl?: string,\n  },\n  /** CSS class name of the root element */\n  className?: string,\n  /** Dash callback delay in ms - default is 500 ms */\n  dashCallbackDelay?: number,\n  /**\n   * Array of strings or nodes used to populate the list\n   * Alternatively, an Array of Objects with a structure like\n   * {label: 'My label to render', value: 'My value to ship on match'}\n   */\n  dataSource?: Array<any>,\n  /** String name for filter to be applied to user input.\n   * will later be mapped to function\n   */\n  filter?: 'caseInsensitiveFilter' | 'caseSensitiveFilter' | 'defaultFilter' |\n    'fuzzyFilter' | 'levenshteinDistanceFilter' | 'noFilter',\n  /** Dash-assigned callback that gets fired when the input changes. */\n  fireEvent?: () => void,\n  /** The hint content to display */\n  hintText?: Node,\n  /** Autocomplete ID */\n  id: string,\n  /** The max number of search results to be shown. By default it shows\n   * all the items which matches filter */\n  maxSearchResults?: number,\n  /** Auto complete menu is open if true */\n  open?: boolean,\n  /** If true, the list item is showed when a focus event triggers */\n  openOnFocus?: boolean,\n  /** Text being input to auto complete */\n  searchText?: string,\n  /** Dash callback to update props on the server. */\n  setProps?: () => void,\n  /** Override the inline-styles of the root element */\n  style?: Object,\n  /** If defined, the AutoComplete component hits this URL to search instead of string matching */\n  searchEndpointAPI?: string,\n  /** General JSON structure to send to the server */\n  searchJSONStructure?: Object,\n  /** The selected value of the input */\n  selectedValue?: any,\n}",
+              "raw": "{\n    /** The classes to be applied to this component. This keys in this object must be valid CSS rule\n     * names, and the values must be strings for the classnames to be assigned to each rule name\n     * Valid rule names are:\n     *   root\n     *   fullWidth\n     *   focus\n     *   tag\n     *   tagSizeSmall\n     *   hasPopupIcon\n     *   hasClearIcon\n     *   inputRoot\n     *   input\n     *   inputFocused\n     *   endAdornment\n     *   clearIndicator\n     *   clearIndicatorDirty\n     *   popupIndicator\n     *   popupIndicatorOpen\n     *   popper\n     *   popperDisablePortal\n     *   paper\n     *   listbox\n     *   loading\n     *   noOptions\n     *   option\n     *   groupLabel\n     *   groupUl\n     * */\n    classes?: {\n        root?: string,\n        fullWidth?: string,\n        focus?: string,\n        tag?: string,\n        tagSizeSmall?: string,\n        hasPopupIcon?: string,\n        hasClearIcon?: string,\n        inputRoot?: string,\n        input?: string,\n        inputFocused?: string,\n        endAdornment?: string,\n        clearIndicator?: string,\n        clearIndicatorDirty?: string,\n        popupIndicator?: string,\n        popupIndicatorOpen?: string,\n        popper?: string,\n        popperDisablePortal?: string,\n        paper?: string,\n        listbox?: string,\n        loading?: string,\n        noOptions?: string,\n        option?: string,\n        groupLabel?: string,\n        groupUl?: string,\n    },\n    /** CSS class name of the root element */\n    className?: string,\n    /** Dash callback delay in ms - default is 500 ms */\n    dashCallbackDelay?: number,\n    /**\n     * Array of strings or nodes used to populate the list\n     * Alternatively, an Array of Objects with a structure like\n     * {label: 'My label to render', value: 'My value to ship on match'}\n     */\n    dataSource?: Array<any>,\n    /** String name for filter to be applied to user input.\n     * will later be mapped to function\n     */\n    filter?:\n        | 'caseInsensitiveFilter'\n        | 'caseSensitiveFilter'\n        | 'defaultFilter'\n        | 'fuzzyFilter'\n        | 'levenshteinDistanceFilter'\n        | 'noFilter',\n    /** Dash-assigned callback that gets fired when the input changes. */\n    fireEvent?: () => void,\n    /** The hint content to display */\n    hintText?: Node,\n    /** Autocomplete ID */\n    id: string,\n    /** The max number of search results to be shown. By default it shows\n     * all the items which matches filter */\n    maxSearchResults?: number,\n    /** Auto complete menu is open if true */\n    open?: boolean,\n    /** If true, the list item is showed when a focus event triggers */\n    openOnFocus?: boolean,\n    /** Text being input to auto complete */\n    searchText?: string,\n    /** Dash callback to update props on the server. */\n    setProps?: () => void,\n    /** Override the inline-styles of the root element */\n    style?: Object,\n    /** If defined, the AutoComplete component hits this URL to search instead of string matching */\n    searchEndpointAPI?: string,\n    /** General JSON structure to send to the server */\n    searchJSONStructure?: Object,\n    /** The selected value of the input */\n    selectedValue?: any,\n}",
               "signature": {
                 "properties": [
                   {
@@ -489,7 +489,7 @@
                     "value": {
                       "name": "signature",
                       "type": "object",
-                      "raw": "{\n  root?: string,\n  fullWidth?: string,\n  focus?: string,\n  tag?: string,\n  tagSizeSmall?: string,\n  hasPopupIcon?: string,\n  hasClearIcon?: string,\n  inputRoot?: string,\n  input?: string,\n  inputFocused?: string,\n  endAdornment?: string,\n  clearIndicator?: string,\n  clearIndicatorDirty?: string,\n  popupIndicator?: string,\n  popupIndicatorOpen?: string,\n  popper?: string,\n  popperDisablePortal?: string,\n  paper?: string,\n  listbox?: string,\n  loading?: string,\n  noOptions?: string,\n  option?: string,\n  groupLabel?: string,\n  groupUl?: string,\n}",
+                      "raw": "{\n    root?: string,\n    fullWidth?: string,\n    focus?: string,\n    tag?: string,\n    tagSizeSmall?: string,\n    hasPopupIcon?: string,\n    hasClearIcon?: string,\n    inputRoot?: string,\n    input?: string,\n    inputFocused?: string,\n    endAdornment?: string,\n    clearIndicator?: string,\n    clearIndicatorDirty?: string,\n    popupIndicator?: string,\n    popupIndicatorOpen?: string,\n    popper?: string,\n    popperDisablePortal?: string,\n    paper?: string,\n    listbox?: string,\n    loading?: string,\n    noOptions?: string,\n    option?: string,\n    groupLabel?: string,\n    groupUl?: string,\n}",
                       "signature": {
                         "properties": [
                           {
@@ -696,7 +696,7 @@
                     "key": "filter",
                     "value": {
                       "name": "union",
-                      "raw": "'caseInsensitiveFilter' | 'caseSensitiveFilter' | 'defaultFilter' |\n'fuzzyFilter' | 'levenshteinDistanceFilter' | 'noFilter'",
+                      "raw": "| 'caseInsensitiveFilter'\n| 'caseSensitiveFilter'\n| 'defaultFilter'\n| 'fuzzyFilter'\n| 'levenshteinDistanceFilter'\n| 'noFilter'",
                       "elements": [
                         {
                           "name": "literal",
@@ -925,7 +925,7 @@
         "flowType": {
           "name": "signature",
           "type": "object",
-          "raw": "{\n  root?: string,\n  fullWidth?: string,\n  focus?: string,\n  tag?: string,\n  tagSizeSmall?: string,\n  hasPopupIcon?: string,\n  hasClearIcon?: string,\n  inputRoot?: string,\n  input?: string,\n  inputFocused?: string,\n  endAdornment?: string,\n  clearIndicator?: string,\n  clearIndicatorDirty?: string,\n  popupIndicator?: string,\n  popupIndicatorOpen?: string,\n  popper?: string,\n  popperDisablePortal?: string,\n  paper?: string,\n  listbox?: string,\n  loading?: string,\n  noOptions?: string,\n  option?: string,\n  groupLabel?: string,\n  groupUl?: string,\n}",
+          "raw": "{\n    root?: string,\n    fullWidth?: string,\n    focus?: string,\n    tag?: string,\n    tagSizeSmall?: string,\n    hasPopupIcon?: string,\n    hasClearIcon?: string,\n    inputRoot?: string,\n    input?: string,\n    inputFocused?: string,\n    endAdornment?: string,\n    clearIndicator?: string,\n    clearIndicatorDirty?: string,\n    popupIndicator?: string,\n    popupIndicatorOpen?: string,\n    popper?: string,\n    popperDisablePortal?: string,\n    paper?: string,\n    listbox?: string,\n    loading?: string,\n    noOptions?: string,\n    option?: string,\n    groupLabel?: string,\n    groupUl?: string,\n}",
           "signature": {
             "properties": [
               {
@@ -1140,7 +1140,7 @@
         "required": false,
         "flowType": {
           "name": "union",
-          "raw": "'caseInsensitiveFilter' | 'caseSensitiveFilter' | 'defaultFilter' |\n'fuzzyFilter' | 'levenshteinDistanceFilter' | 'noFilter'",
+          "raw": "| 'caseInsensitiveFilter'\n| 'caseSensitiveFilter'\n| 'defaultFilter'\n| 'fuzzyFilter'\n| 'levenshteinDistanceFilter'\n| 'noFilter'",
           "elements": [
             {
               "name": "literal",
@@ -1170,7 +1170,7 @@
         },
         "description": "String name for filter to be applied to user input.\nwill later be mapped to function",
         "defaultValue": {
-          "value": "\"defaultFilter\"",
+          "value": "'defaultFilter'",
           "computed": false
         }
       },
@@ -1200,7 +1200,7 @@
         },
         "description": "The hint content to display",
         "defaultValue": {
-          "value": "\"Search Here\"",
+          "value": "''",
           "computed": false
         }
       },
@@ -1247,7 +1247,7 @@
         },
         "description": "Text being input to auto complete",
         "defaultValue": {
-          "value": "\"\"",
+          "value": "''",
           "computed": false
         }
       },
@@ -7044,6 +7044,158 @@
         "description": "Makes Tabs controllable and selects the tab whose value prop matches this prop",
         "defaultValue": {
           "value": "false",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/lib/components/TextField.react.js": {
+    "description": "A Dash material-ui TextField component",
+    "displayName": "TextField",
+    "methods": [],
+    "props": {
+      "id": {
+        "required": true,
+        "flowType": {
+          "name": "string"
+        },
+        "description": "ID for TextField"
+      },
+      "className": {
+        "required": false,
+        "flowType": {
+          "name": "string"
+        },
+        "description": "The CSS class name of the root element",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "classes": {
+        "required": false,
+        "flowType": {
+          "name": "signature",
+          "type": "object",
+          "raw": "{\n    root?: string,\n}",
+          "signature": {
+            "properties": [
+              {
+                "key": "root",
+                "value": {
+                  "name": "string",
+                  "required": false
+                }
+              }
+            ]
+          }
+        },
+        "description": "The classes to be applied to this component.",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "color": {
+        "required": false,
+        "flowType": {
+          "name": "string"
+        },
+        "description": "Color - primary or secondary",
+        "defaultValue": {
+          "value": "'primary'",
+          "computed": false
+        }
+      },
+      "defaultValue": {
+        "required": false,
+        "flowType": {
+          "name": "string"
+        },
+        "description": "The default value",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "fullWidth": {
+        "required": false,
+        "flowType": {
+          "name": "boolean"
+        },
+        "description": "Take up fill width of container",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "helperText": {
+        "required": false,
+        "flowType": {
+          "name": "Node"
+        },
+        "description": "The helper text",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "label": {
+        "required": false,
+        "flowType": {
+          "name": "Node"
+        },
+        "description": "The label content",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "placeholder": {
+        "required": false,
+        "flowType": {
+          "name": "string"
+        },
+        "description": "Placeholder text",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "value": {
+        "required": false,
+        "flowType": {
+          "name": "any"
+        },
+        "description": "Value of the input",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "variant": {
+        "required": false,
+        "flowType": {
+          "name": "union",
+          "raw": "'filled' | 'outlined' | 'standard'",
+          "elements": [
+            {
+              "name": "literal",
+              "value": "'filled'"
+            },
+            {
+              "name": "literal",
+              "value": "'outlined'"
+            },
+            {
+              "name": "literal",
+              "value": "'standard'"
+            }
+          ]
+        },
+        "description": "The variant",
+        "defaultValue": {
+          "value": "'outlined'",
           "computed": false
         }
       }
