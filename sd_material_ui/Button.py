@@ -104,14 +104,15 @@ and https://material-ui.com/api/icon-button/#css. classes has the following type
 - disableShadow (string; optional): Hide the shadow behind the button
 - style (dict; optional): Override the inline styles of the root element
 - useIcon (boolean; optional): If true, this object is rendered as an IconButton
-- variant (string; default 'text'): 'contained' | 'outlined' | 'text', Button type if not an IconButton"""
+- variant (string; default 'text'): 'contained' | 'outlined' | 'text', Button type if not an IconButton
+- color (string; default 'default'): 'primary' | 'secondary', Color of button"""
     @_explicitize_args
-    def __init__(self, children=None, classes=Component.UNDEFINED, className=Component.UNDEFINED, disableTouchRipple=Component.UNDEFINED, disabled=Component.UNDEFINED, fireEvent=Component.UNDEFINED, fullWidth=Component.UNDEFINED, href=Component.UNDEFINED, iconClass=Component.UNDEFINED, id=Component.UNDEFINED, n_clicks=Component.UNDEFINED, n_clicks_previous=Component.UNDEFINED, disableShadow=Component.UNDEFINED, style=Component.UNDEFINED, useIcon=Component.UNDEFINED, variant=Component.UNDEFINED, **kwargs):
-        self._prop_names = ['children', 'classes', 'className', 'disableTouchRipple', 'disabled', 'fullWidth', 'href', 'iconClass', 'id', 'n_clicks', 'n_clicks_previous', 'disableShadow', 'style', 'useIcon', 'variant']
+    def __init__(self, children=None, classes=Component.UNDEFINED, className=Component.UNDEFINED, disableTouchRipple=Component.UNDEFINED, disabled=Component.UNDEFINED, fireEvent=Component.UNDEFINED, fullWidth=Component.UNDEFINED, href=Component.UNDEFINED, iconClass=Component.UNDEFINED, id=Component.UNDEFINED, n_clicks=Component.UNDEFINED, n_clicks_previous=Component.UNDEFINED, disableShadow=Component.UNDEFINED, style=Component.UNDEFINED, useIcon=Component.UNDEFINED, variant=Component.UNDEFINED, color=Component.UNDEFINED, **kwargs):
+        self._prop_names = ['children', 'classes', 'className', 'disableTouchRipple', 'disabled', 'fullWidth', 'href', 'iconClass', 'id', 'n_clicks', 'n_clicks_previous', 'disableShadow', 'style', 'useIcon', 'variant', 'color']
         self._type = 'Button'
         self._namespace = 'sd_material_ui'
         self._valid_wildcard_attributes =            []
-        self.available_properties = ['children', 'classes', 'className', 'disableTouchRipple', 'disabled', 'fullWidth', 'href', 'iconClass', 'id', 'n_clicks', 'n_clicks_previous', 'disableShadow', 'style', 'useIcon', 'variant']
+        self.available_properties = ['children', 'classes', 'className', 'disableTouchRipple', 'disabled', 'fullWidth', 'href', 'iconClass', 'id', 'n_clicks', 'n_clicks_previous', 'disableShadow', 'style', 'useIcon', 'variant', 'color']
         self.available_wildcard_properties =            []
 
         _explicit_args = kwargs.pop('_explicit_args')

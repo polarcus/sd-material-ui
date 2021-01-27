@@ -1,0 +1,179 @@
+body {
+    background-color: #f1f1f1;
+    color: #4f4f4f;
+    font-family: 'Lato';
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+}
+
+.body-container {
+    width: calc(100% - 240px);
+}
+
+/* Sidebar */
+.sidebar-container {
+    width: 240px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+}
+.sidebar-header {
+    font-family: 'Amaranth';
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #388681;
+}
+.sidebar-item {
+    color: #707070;
+    font-family: 'Lato';
+    padding-left: 1.25rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    cursor: pointer;
+    border-bottom: 1px solid #fafafa;
+}
+.sidebar-item:hover {
+    background-color: #22a637;
+    color: #fff;
+}
+.selected {
+    background-color: #22a637;
+    color: #fff;
+}
+
+/*  */
+.MuiPaper-root {
+    padding: 1rem;
+}
+
+/* Typography */
+h1 {
+    font-family: 'Amaranth';
+    font-size: 1.25rem;
+}
+h2 {
+    font-family: 'Amaranth';
+    font-size: 0.875rem;
+}
+.body1 {
+    font-family: 'Lato';
+    font-size: 0.75rem;
+}
+.body2 {
+    font-family: 'Lato';
+    font-size: 0.875rem;
+}
+.body3 {
+    font-family: 'Lato';
+    font-size: 1.24rem;
+}
+
+/* Color Palette */
+.text-primary-main {
+    color: #22a637 !important;
+}
+.text-primary-dark {
+    color: #10712c !important;
+}
+.text-primary-light {
+    color: #94e9a2 !important;
+}
+.text-primary-lighter {
+    color: #e1ffe6 !important;
+}
+.text-secondary-main {
+    color: #388681 !important;
+}
+.text-secondary-dark {
+    color: #0e4a46 !important;
+}
+.text-secondary-light {
+    color: #80c0bd !important;
+}
+.text-secondary-lighter {
+    color: #e6f9f7 !important;
+}
+.text-black {
+    color: #000 !important;
+}
+.text-white {
+    color: #fff !important;
+}
+.text-grey-one {
+    color: #4f4f4f !important;
+}
+.text-grey-two {
+    color: #707070 !important;
+}
+.text-grey-three {
+    color: #a4a4a4 !important;
+}
+.text-grey-four {
+    color: #d2d2d2 !important;
+}
+.text-grey-five {
+    color: #e9e9e9 !important;
+}
+.text-grey-six {
+    color: #f1f1f1 !important;
+}
+
+/* Background colors */
+.bg-primary-main {
+    background-color: #22a637 !important;
+}
+.bg-primary-dark {
+    background-color: #10712c !important;
+}
+.bg-primary-light {
+    background-color: #94e9a2 !important;
+}
+.bg-primary-lighter {
+    background-color: #e1ffe6 !important;
+}
+.bg-secondary-main {
+    background-color: #388681 !important;
+}
+.bg-secondary-dark {
+    background-color: #0e4a46 !important;
+}
+.bg-secondary-light {
+    background-color: #80c0bd !important;
+}
+.bg-secondary-lighter {
+    background-color: #e6f9f7 !important;
+}
+
+.bg-black {
+    background-color: #000 !important;
+}
+.bg-white {
+    background-color: #fff !important;
+}
+
+.bg-grey-one {
+    background-color: #4f4f4f !important;
+}
+.bg-grey-two {
+    background-color: #707070 !important;
+}
+.bg-grey-three {
+    background-color: #a4a4a4 !important;
+}
+.bg-grey-four {
+    background-color: #d2d2d2 !important;
+}
+.bg-grey-five {
+    background-color: #e9e9e9 !important;
+}
+.bg-grey-six {
+    background-color: #f1f1f1 !important;
+}
