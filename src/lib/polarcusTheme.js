@@ -165,9 +165,15 @@ const theme = createMuiTheme({
                 lineHeight: '17px',
                 color: '#4F4F4F',
                 marginTop: 8,
+                width: 240,
             },
             input: {
                 padding: '8px !important',
+            },
+        },
+        MuiAutocomplete: {
+            inputRoot: {
+                padding: '0px !important',
             },
         },
     },

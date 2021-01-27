@@ -356,8 +356,6 @@ app.layout = html.Div(className="main-container", children=[
             ])
         ]),
 
-
-
         spacer
 
     ]),
